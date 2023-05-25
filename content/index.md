@@ -1,4 +1,4 @@
-# Nuxt 3 Kitchen Sink
+# Colin Massard Portfolio
 
 Welcome to the Nuxt 3 kitchen sink template!
 
