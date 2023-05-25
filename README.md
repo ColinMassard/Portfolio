@@ -1,20 +1,9 @@
-# Nuxt 3 Kitchen Sink Template
+# Portfolio Colin Massard
 
-This template is an open-source, customizable template built with Nuxt 3 and Tailwind CSS. It showcases how all Nuxt 3 features work with zero configuration on Vercel.
+Vercal & Nuxt3 base this portfolio is used to show my current state and level in the Web Dev
+Dev & Design: Colin Massard
 
 Look at the [Nuxt 3 documentation](https://nuxt.com) to learn more.
-
-## Supported Features
-
-- Server-Side Rendering (SSR)
-- Server Routes
-- Teleports
-- Middleware
-- Edge Rendering
-- Nuxt Loading Indication
-- `NuxtLink`
-- `NuxtContent`
-- Data Fetching
 
 ## Deploy Your Own
 
@@ -25,8 +14,8 @@ Look at the [Nuxt 3 documentation](https://nuxt.com) to learn more.
 Start the development server on http://localhost:3000
 
 ```bash
-git clone https://github.com/vercel/nuxt3-kitchen-sink.git
-cd nuxt3-kitchen-sink
+git clone https://github.com/ColinMassard/portfolio.git
+cd portfolio
 pnpm i
 pnpm dev
 ```
