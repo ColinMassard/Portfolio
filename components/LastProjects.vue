@@ -1,12 +1,12 @@
 <template>
-  <div class="projects w-full h-screen bg-grey anim--cascad relative flex items-center" id="projects" data-animate="">
+  <div class="projects w-full h-screen bg-grey relative flex items-center" id="projects">
     <div class="container lg:container-md mx-auto lg:flex z-10">
-      <div class="w-full lg:w-2/5 anim-fade-up bg-gray z-50">
+      <div class="w-full lg:w-2/5 anim-fade-up bg-gray z-50" data-animate="">
         <h2 class="font-title text-4xl lg:text-4r leading-none tracking-widest lg:tracking-7p text-primary">Last <br class="hidden lg:block">Projects</h2>
         <p class="font-normal font-medium leading-loose font-medium text-black max-w-sm mt-8 lg:mt-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque lacinia lacus non vestibulum vestibulum. Sed eleifend porttitor eros et lacinia.</p>
         
       </div>
-      <div class="w-full lg:w-3/5 mt-8 lg:mt-0">
+      <div class="w-full lg:w-3/5 mt-8 lg:mt-0 anim--cascad" data-animate="">
         <Swiper
           :modules="[SwiperAutoplay, SwiperEffectCreative]"
           :breakpoints="{ 568:{ slidesPerView:1 }, 1024:{ slidesPerView:1.5 } }"
@@ -27,7 +27,7 @@
           }"
         >
           <SwiperSlide>
-            <div class="max-h-slide h-slide">
+            <div class="max-h-slide h-slide anim-fade-up">
               <a class="block w-full max-h-slide h-slide lg:pr-5" target="_blank" rel="nofollow" href="https://www.dbt-partners.com/">
                 <img src="~/assets/img/projects/dbt.jpg" class="img-cover w-full">
                 <div class="p-9 bg-white">
@@ -38,7 +38,7 @@
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div class="max-h-slide h-slide">
+            <div class="max-h-slide h-slide anim-fade-up">
               <a class="block w-full max-h-slide h-slide lg:pr-5" target="_blank" rel="nofollow" href="https://www.tinnson.com/">
                 <img src="~/assets/img/projects/tinnson.jpg" class="img-cover w-full">
                 <div class="p-9 bg-white">
@@ -49,7 +49,7 @@
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div class="max-h-slide h-slide">
+            <div class="max-h-slide h-slide anim-fade-up">
               <a class="block w-full max-h-slide h-slide lg:pr-5" target="_blank" rel="nofollow" href="https://seconde-vintage.com/">
                 <img src="~/assets/img/projects/sv.jpg" class="img-cover w-full">
                 <div class="p-9 bg-white">
@@ -60,7 +60,7 @@
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div class="max-h-slide h-slide">
+            <div class="max-h-slide h-slide anim-fade-up">
               <a class="block w-full max-h-slide h-slide lg:pr-5" target="_blank" rel="nofollow" href="https://www.studio-hb.com/">
                 <img src="~/assets/img/projects/shb.jpg" class="img-cover w-full">
                 <div class="p-9 bg-white">
@@ -71,7 +71,7 @@
             </div>
           </SwiperSlide>
           <SwiperSlide>
-            <div class="max-h-slide h-slide">
+            <div class="max-h-slide h-slide anim-fade-up">
               <a class="block w-full max-h-slide h-slide lg:pr-5" target="_blank" rel="nofollow" href="https://codepen.io/ColinMsd">
                 <img src="~/assets/img/projects/codepen.jpg" class="img-cover w-full">
                 <div class="p-9 bg-white">
