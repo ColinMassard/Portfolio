@@ -1,6 +1,6 @@
 <template>
     <div class="skills w-full h-auto bg-primary anim--cascad relative flex items-center py-24"  data-animate="">
-      <div class="container lg:container-md mx-auto lg:flex">
+      <div class="container lg:container-md mx-auto lg:flex py-12 lg:py-0">
         <div class="w-full lg:w-1/2 anim-fade-up">
           <h2 class="font-title text-4xl lg:text-4r leading-none tracking-widest lg:tracking-7p text-white sticky top-8 mb-8 lg:mb-8">Skills</h2>
         </div>
