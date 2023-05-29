@@ -14,6 +14,7 @@ module.exports = {
       white: '#fff',
       black: '#000',
       grey: '#E3E3E3',
+      'grey-dark': '#7E7E88'
     },
     extend: {
       maxWidth: {
@@ -25,6 +26,7 @@ module.exports = {
       },
       fontSize: {
         '2r': '2rem',
+        '2.5r': '2.5rem',
         '4r': '4rem',
       },
       zIndex: {
@@ -39,6 +41,7 @@ module.exports = {
       spacing: {
         "container-md": "80%",
         "container": "90%",
+        "slide": "35rem"
       }
     },
   },

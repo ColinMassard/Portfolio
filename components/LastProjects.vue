@@ -1,13 +1,91 @@
 <template>
-  <div class="projects w-full h-screen bg-grey anim--cascad relative flex items-center"  data-animate="">
+  <div class="projects w-full h-screen bg-grey anim--cascad relative flex items-center" id="projects" data-animate="">
     <div class="container lg:container-md mx-auto lg:flex">
-      <div class="w-full lg:w-4/10 anim-fade-up">
+      <div class="w-full lg:w-2/5 anim-fade-up bg-gray z-50">
         <h2 class="font-title text-4r leading-none tracking-7p text-primary">Last<br>Projects</h2>
         <p class="font-normal font-medium leading-loose font-medium text-black max-w-sm mt-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque lacinia lacus non vestibulum vestibulum. Sed eleifend porttitor eros et lacinia.</p>
+        
       </div>
-      <div class="w-full lg:w-6/10">
+      <div class="w-full lg:w-3/5">
+        <Swiper
+          :modules="[SwiperAutoplay, SwiperEffectCreative]"
+          :slides-per-view="1.5"
+          :loop="true"
+          :effect="'creative'"
+          :autoplay="{
+            delay: 800000,
+            disableOnInteraction: true,
+          }"
+          :creative-effect="{
+            prev: {
+              shadow: false,
+              translate: ['0%', 0, -1],
+            },
+            next: {
+              translate: ['100%', 0, 0],
+            },
+          }"
+        >
+          <SwiperSlide>
+            <div class="max-h-slide h-slide">
+              <a class="block w-full max-h-slide h-slide pr-5" target="_blank" rel="nofollow" href="https://www.dbt-partners.com/">
+                <img src="~/assets/img/projects/dbt.jpg" class="img-cover w-full">
+                <div class="p-9 bg-white">
+                  <p class="text-xl leading-none text-grey-dark font-title">Real estate diagnosis</p>
+                  <h3 class="text-secondary text-2.5r leading-none font-title mt-1.5">DBT Partners</h3>
+                </div>
+              </a>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div class="max-h-slide h-slide">
+              <a class="block w-full max-h-slide h-slide pr-5" target="_blank" rel="nofollow" href="https://www.tinnson.com/">
+                <img src="~/assets/img/projects/tinnson.jpg" class="img-cover w-full">
+                <div class="p-9 bg-white">
+                  <p class="text-xl leading-none text-grey-dark font-title">Chelsea Boots Online shop</p>
+                  <h3 class="text-secondary text-2.5r leading-none font-title mt-1.5">Tinnson</h3>
+                </div>
+              </a>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div class="max-h-slide h-slide">
+              <a class="block w-full max-h-slide h-slide pr-5" target="_blank" rel="nofollow" href="https://seconde-vintage.com/">
+                <img src="~/assets/img/projects/sv.jpg" class="img-cover w-full">
+                <div class="p-9 bg-white">
+                  <p class="text-xl leading-none text-grey-dark font-title">Vintage watch website</p>
+                  <h3 class="text-secondary text-2.5r leading-none font-title mt-1.5">Seconde Vintage</h3>
+                </div>
+              </a>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div class="max-h-slide h-slide">
+              <a class="block w-full max-h-slide h-slide pr-5" target="_blank" rel="nofollow" href="https://www.studio-hb.com/">
+                <img src="~/assets/img/projects/shb.jpg" class="img-cover w-full">
+                <div class="p-9 bg-white">
+                  <p class="text-xl leading-none text-grey-dark font-title">Web Agency</p>
+                  <h3 class="text-secondary text-2.5r leading-none font-title mt-1.5">Studio HB</h3>
+                </div>
+              </a>
+            </div>
+          </SwiperSlide>
+          <SwiperSlide>
+            <div class="max-h-slide h-slide">
+              <a class="block w-full max-h-slide h-slide pr-5" target="_blank" rel="nofollow" href="https://codepen.io/ColinMsd">
+                <img src="~/assets/img/projects/codepen.jpg" class="img-cover w-full">
+                <div class="p-9 bg-white">
+                  <p class="text-xl leading-none text-grey-dark font-title">Personal Sandbox</p>
+                  <h3 class="text-secondary text-2.5r leading-none font-title mt-1.5">Codepen</h3>
+                </div>
+              </a>
+            </div>
+          </SwiperSlide>
+        </Swiper>
       </div>
     </div>
     <img src="~/assets/img/projects-bg.png" class="img-cover h-full w-full max-w-3xl absolute right-0 top-0"/> 
   </div>
 </template>
+
+

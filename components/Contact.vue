@@ -8,15 +8,15 @@
           <div class="grid grid-cols-2 gap-12 mt-10">
             <div>
               <p class="text-primary">Send me an email</p>
-              <a class="text-primary text-xl font-medium" href="mailto:colinmassard@gmail.com">colinmassard@gmail.com</a>
+              <a class="text-primary text-xl font-medium hover:text-secondary transition-all ease-in-out duration-500" href="mailto:colinmassard@gmail.com">colinmassard@gmail.com</a>
             </div>
             <div>
               <p class="text-primary">Chat on Whatsapp</p>
-              <a class="text-primary text-xl font-medium" href="tel:+33630655561">colinmassard@gmail.com</a>
+              <a class="text-primary text-xl font-medium hover:text-secondary transition-all ease-in-out duration-500" href="tel:+33630655561">+33 6 30 65 55 61</a>
             </div>
             <div>
               <p class="text-primary">Connect on Linkedin</p>
-              <a class="text-primary text-xl font-medium" href="linkedin.com/comassard" target="_blank">linkedin.com/comassard</a>
+              <a class="text-primary text-xl font-medium hover:text-secondary transition-all ease-in-out duration-500" href="linkedin.com/comassard" target="_blank">linkedin.com/comassard</a>
             </div>
           </div>
         </div>

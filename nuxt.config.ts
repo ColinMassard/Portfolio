@@ -1,4 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+import { defineNuxtModule } from 'nuxt';
+
 export default defineNuxtConfig({
   app: {
     head: {
@@ -6,7 +8,7 @@ export default defineNuxtConfig({
       viewport: 'width=device-width, initial-scale=1',
     }
   },
-  modules: ['@nuxt/content', '@nuxtjs/tailwindcss'],
+  modules: ['@nuxt/content', '@nuxtjs/tailwindcss', 'nuxt-swiper'],
   css: [
     '~/assets/css/main.sass'
   ],
@@ -23,8 +25,9 @@ export default defineNuxtConfig({
     // https://content.nuxtjs.org/api/configuration
     highlight: {
       preload: ['javascript', 'vue', 'html'],
-      theme: 'monokai',
+      theme: 'github-light',
     },
   },
   
 });
+
