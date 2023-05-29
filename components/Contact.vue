@@ -4,7 +4,7 @@
       <div class="w-full lg:w-1/2 anim-fade-up">
         <div class="max-w-xl">
           <h2 class="font-title text-4xl lg:text-4r leading-none tracking-widest lg:tracking-7p text-primary">Let's<br>Chat</h2>
-          <p class="font-normal font-medium leading-loose font-medium text-black max-w-sm mt-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque lacinia lacus non vestibulum vestibulum. Sed eleifend porttitor eros et lacinia.</p>
+          <p class="font-normal font-medium leading-loose font-medium text-black max-w-sm mt-10">Why stop at just browsing? Don't hesitate to take the next step and send me a message. Whether you're an individual, a fellow professional, or a potential client, I'm here to listen and engage in meaningful conversations. Let's explore how we can collaborate, share ideas, or work together on a project that sparks our mutual interest.</p>
           <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 mt-10">
             <div>
               <p class="text-primary">Send me an email</p>

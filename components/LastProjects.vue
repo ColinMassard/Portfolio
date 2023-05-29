@@ -3,7 +3,7 @@
     <div class="container lg:container-md mx-auto lg:flex z-10">
       <div class="w-full lg:w-2/5 anim-fade-up bg-gray z-50" data-animate="">
         <h2 class="font-title text-4xl lg:text-4r leading-none tracking-widest lg:tracking-7p text-primary">Last <br class="hidden lg:block">Projects</h2>
-        <p class="font-normal font-medium leading-loose font-medium text-black max-w-sm mt-8 lg:mt-16">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque lacinia lacus non vestibulum vestibulum. Sed eleifend porttitor eros et lacinia.</p>
+        <p class="font-normal font-medium leading-loose font-medium text-black max-w-sm mt-8 lg:mt-16">Check out my latest projects, where creativity meets innovation! From groundbreaking designs to captivating campaigns, my portfolio showcases the pinnacle of my recent work. Explore and be inspired!</p>
         
       </div>
       <div class="w-full lg:w-3/5 mt-8 lg:mt-0 anim--cascad" data-animate="">
