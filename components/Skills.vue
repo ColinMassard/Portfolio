@@ -37,6 +37,7 @@
               <p class="font-normal text-xl leading-normal text-white">Stimulus</p>
               <p class="font-normal text-xl leading-normal text-white">Vue / React / Angular</p>
               <p class="font-normal text-xl leading-normal text-white">NuxtJS</p>
+              <p class="font-normal text-xl leading-normal text-white">Wordpress / Shopify</p>
             </div>
           </div>
           <div class="anim-fade-up">
