@@ -1,5 +1,5 @@
 <template>
-  <div class="projects w-full lg:h-screen bg-grey relative flex items-center" id="projects">
+  <div class="projects w-full lg:h-screen bg-grey relative flex items-center overflow-hidden" id="projects">
     <div class="container lg:container-md mx-auto lg:flex z-10 py-12 lg:py-0">
       <div class="w-full lg:w-2/5 anim-fade-up bg-gray z-50" data-animate="">
         <h2 class="font-title text-4xl lg:text-4r leading-none tracking-widest lg:tracking-7p text-primary">Last <br class="hidden lg:block">Projects</h2>
